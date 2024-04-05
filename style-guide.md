@@ -11,14 +11,14 @@ The designs were created to the following widths:
 
 ## Colors
 
-### Primary
+### Summary colors
 
 - Light red: hsl(0, 100%, 67%)
 - Orangey yellow: hsl(39, 100%, 56%)
 - Green teal: hsl(166, 100%, 37%)
 - Cobalt blue: hsl(234, 85%, 45%)
 
-## Gradients
+## Gradients main results
 
 - Light slate blue (background): hsl(252, 100%, 67%)
 - Light royal blue (background): hsl(241, 81%, 54%)

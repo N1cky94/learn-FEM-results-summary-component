@@ -5,43 +5,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles_mobile.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <div class="main-container">
+    <div class="result-container">
+      <div class="result-title">
+        Your Result
+      </div>
+      <div class="circle-container">
+        <div class="inner-circle">
+          <div class="result-score">
+            76
+          </div>
+          <div class="result-score-label">
+            of 100
+          </div>
+        </div>
+      </div>
 
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
+      <div class="result-score-text">
+        Great
+      </div>
+      <div class="result-score-label">
+        You scored higher than 65% of the people who have taken these tests.
+      </div>
+    </div>
+    <div class="summary-container">
+      <div class="sub-score-title">
+        Summary
+      </div>
+      <div  class="sub-score-tag">
+        <div>
+          Reaction
+        </div>
+        <div>
+          80 / 100
+        </div>
+      </div>
+      <div  class="sub-score-tag">
+        <div>
+          Memory
+        </div>
+        <div>
+          92 / 100
+        </div>
+      </div>
+      <div  class="sub-score-tag">
+        <div>
+          Verbal
+        </div>
+        <div>
+          61 / 100
+        </div>
+      </div>
+      <div class="sub-score-tag">
+        <div>
+          Visual
+        </div>
+        <div>
+          72 / 100
+        </div>
+      </div>
+      <div class="sub-score-button">
+        Continue
+      </div>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://archilios.be">Nick Bauters - Archilios</a>.
   </div>
 </body>
 </html>
